@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="BusinessEngine.Models" assembly="BusinessEngine">
+  <class name="Client" table="Client" lazy="false">
+    <id name="Id">
+      <column name="Id"/>
+      <generator class="native"/>
+    </id>
+    <property name="Nom">
+      <column name="Nom"/>
+    </property>
+    <property name="Prenoms">
+      <column name="Prenoms"/>
+    </property>
+  </class>
+</hibernate-mapping>
