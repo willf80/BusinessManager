@@ -8,7 +8,7 @@ namespace BusinessEngine
 {
     public class Dao
     {
-        private static ISessionFactory SessionFactory;
+        private static ISessionFactory SessionFactory; 
 
         private string configFile;
 
